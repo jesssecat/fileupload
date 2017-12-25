@@ -5,6 +5,7 @@
 	<title>文件上传</title>
 </head>
 <body>
+	<p>需要建立文件夹uploads</p>
 	<form action="doupload.php" method="post" enctype="multipart/form-data">
 		<input type="file" name="myFile"/>
 		<input type="hidden" name="MAX_FILE_SIZE" value="1024">
